@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS';
+    background-color: #000;
+    color: white;
+}
+.hamburger {
+    display: none;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 15%;
+}
+header .logo{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: bold;
+}
+header ul{
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.4em;
+    transition: .4s;
+}
+header a:hover, header .active {
+    color: orange;
+    border-bottom: 1px solid orange;
+    padding-bottom: 10px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 6em 18% ;
+}
+main .main-text small{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: orange;
+}
+main .main-text h1{
+    font-size: 2.8em;
+    margin: 0.5em 0;
+}
+main .main-text h1 span{
+    color: orange;
+}
+main .main-text .btns{
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 0.9em 1em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-weight: bold;
+}
+main .main-text .btns:hover{
+    background-color: orange;
+}
+.main-img img{
+    width: 500px;
+    border-radius: 10px;
+
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+    box-shadow: 2px 2px 7px;
+    padding: 2em 0;
+}
+
+.services{
+    max-width: 60%;
+    margin: 5em auto;
+}
+.services h2, .services p{
+    text-align: center;
+
+}
+.services h2{
+    font-size: 2em;
+    text-transform: capitalize;
+}
+.services p{
+    font-size: 1.3em;
+    padding: 1em 0;
+    text-transform: capitalize;
+    color: grey;
+
+}
+.services .my-services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+.services .my-services section{
+    background-color: #222;
+    flex-basis: 30%;
+    text-align: center;
+    padding:1.5em 0;
+    border-radius: 8px;
+}
+.my-services section .services-icon{
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+    color: orange;
+
+}
+.my-services section h4{
+    font-variant: small-caps;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.contact-me{
+    max-width: 70%;
+    margin: 5rem auto;
+}
+.contact-me > p, .contact-me h2{
+    /* font-size: 1.3em; */
+    text-align: center;
+
+}
+.contact-me > p{
+    font-size: 1.3em;
+    color: grey;
+    padding: 1em 0;
+}
+.contact-me h2{
+    font-size: 2.8em;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info div{
+    flex-basis: 23%;
+    text-align: center;
+}
+.contact-info div p span{
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 100px;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    margin: 1em auto;
+}
+.contact-info div h5{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+.contact-info div p{
+    color: white;
+    text-transform: capitalize;
+}
+footer, .footer-icon, .footer-copyright{
+    max-width: 70%;
+    margin: auto;
+}
+footer{
+    margin-top: 15%;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+/* footer .footer-1 > pre{
+    display: block;
+    margin: ;
+} */
+footer h4{
+    padding: 0 0 2em 0;
+    font-size: 1.5em;
+
+}
+footer .footer-1 > p{
+    color: grey;
+    line-height: 1.3;
+}
+footer a{
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 0 0 10px;
+    color: grey;
+    display: inline-block;
+}
+footer i{
+    color: gray;
+}
+footer .footer-4 p{
+    padding: 8px 0 0 0;
+    font-size: 1.1em;
+}
+footer .footer-4 p i{
+    padding: 0 10px 0 0;
+}
+footer .fa-location{
+    color: white;
+}
+.footer-icon{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    margin:2em auto ;
+}
+.footer-icon p{
+    width: 80px;
+    height: 80px;
+    background-color: #111;
+    border-radius: 100px;
+    font-size: 2em;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+.footer-copyright{
+    display: grid;
+    place-items: center;
+    margin: 5rem auto;
+}
+.footer-copyright span{
+    color: orange;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+@media (max-width: 1310px){
+    .hamburger{
+        display: block;
+        font-size: 1.8em;
+    }
+
+    header ul{
+        position: fixed;
+        flex-direction: column;
+        background-image: linear-gradient(black, rgb(39, 25, 0));
+        width: 100%;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        height: 100vh;
+        padding-top: 2em;
+        transition: .5s;
+    }
+    header a {
+        font-size: 1.8em;
+        text-transform: capitalize;
+    }
+    header li {
+        /* padding: 2em 0; */
+    }
+    header ul.active{
+        left: 0;
+    }
+    main{
+        flex-direction: column;
+    }
+    main .main-text{
+        margin-bottom: 2em;
+    }
+    .services .my-services section{
+        flex-basis: 100%;
+    }
+    .contact-info{
+        flex-direction: column;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 700px){
+    .main-img img
+    {
+        width: 220px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer h4 {
+        padding: 3em 0 1em 0;
+    }
+}
+
+@media (max-width: 465px){
+    main .main-text .btns{
+        font-size: 0.8rem;
+        padding:10px 3em;
+    }
+    main{
+        padding: 5em 7% !important;
+    }
+}
